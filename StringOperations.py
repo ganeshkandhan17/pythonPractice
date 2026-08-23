@@ -38,3 +38,10 @@ array = ['ganesh','kandhan','v','m']
 joined = ' '.join(array)
 joined = joined.title()
 print(f'Joined string : {joined}')
+
+splittingString="ganesh kandhan"
+split = splittingString.split(" ")
+print(f"split string {split}")
+
+digit = 'ganesh'
+print(digit.isdigit())

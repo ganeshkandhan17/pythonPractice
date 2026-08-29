@@ -21,3 +21,20 @@ def sum(num):
     return temp
 
 print(sum(5))
+
+# default argument or optional argument
+def defaultArgument(fname, lname=''):
+    print(f"Welcome {fname} {lname}")
+
+defaultArgument('Ganesh', 'kandhan')
+
+# passing list
+
+def printList(list):
+    for i in range(0, len(list)):
+        list[i] = list[i].title()
+        print(list[i], end=' ')
+
+list1= ['Ganesh', 'kandhan', 'v', 'm']
+printList(list1.copy())
+print(list1)

@@ -21,3 +21,4 @@ print("{:e}".format(num4))
 
 # Comma formatted
 print("{:,}".format(num4))
+print(f"pi : {pi:.2f}")

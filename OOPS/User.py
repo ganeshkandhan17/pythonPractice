@@ -11,3 +11,11 @@ class User:
 
     def login(self):
         print(f'{self.name} is logging in...')
+
+class Student(User):
+    def greetStudent(self):
+        print("Greet student...")
+
+class Faculty(User):
+    def greetFacutly(self):
+        print("Greet faculty...")

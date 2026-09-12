@@ -1,4 +1,4 @@
-from User import User
+from User import User, Student,  Faculty
 
 user1 = User('Keerthi', 'Hi')
 print(user1.name)
@@ -13,3 +13,10 @@ user1.login()
 print(User.users)
 User.users = 10
 print(User.users)
+
+student1 = Student('Kandhan','V M')
+student1.login()
+student1.greetStudent()
+
+faculty1=Faculty('Balaji', 'Test')
+faculty1.greetFacutly()

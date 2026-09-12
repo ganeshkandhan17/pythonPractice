@@ -8,9 +8,11 @@ class User:
 
     def register(self):
         print(f'{self.name} is registering...')
+        return self
 
     def login(self):
         print(f'{self.name} is logging in...')
+        return self
 
 class Student(User):
     def greet(self):

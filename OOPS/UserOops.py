@@ -1,4 +1,4 @@
-from User import User, Student,  Faculty, TempFacutly
+from User import User, Student,  Faculty, TempFacutly, StudentFaculty
 
 user1 = User('Keerthi', 'Hi')
 print(user1.name)
@@ -23,3 +23,7 @@ faculty1.greetFacutly()
 
 temp = TempFacutly("Vijay", 'CM')
 temp.register()
+
+PGStudent1 = StudentFaculty('Ram', 'Test')
+PGStudent1.greetStudent()
+PGStudent1.greetFacutly()

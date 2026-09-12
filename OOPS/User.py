@@ -23,3 +23,7 @@ class Faculty(User):
 class TempFacutly(Faculty):
     def tempFunction(self):
         print("This is temp function from temp facutly")
+
+class StudentFaculty(Student,Faculty):
+    def studentAndFacutly():
+        print('Acting as both student and facutly')

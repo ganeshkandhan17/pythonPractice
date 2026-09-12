@@ -19,3 +19,7 @@ class Student(User):
 class Faculty(User):
     def greetFacutly(self):
         print("Greet faculty...")
+
+class TempFacutly(Faculty):
+    def tempFunction(self):
+        print("This is temp function from temp facutly")

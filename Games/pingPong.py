@@ -7,6 +7,9 @@ window.bgcolor('blue')
 window.title('Ping pong game')
 window.tracer(0)
 
+scoreA = 0 
+scoreB = 0
+
 # padding
 pdy=35
 
@@ -35,6 +38,13 @@ ball.penup()
 dx=0.3
 dy=0.3
 
+# Pen
+pen= turtle.Turtle()
+pen.penup()
+pen.hideturtle()
+pen.color('white')
+pen.goto(0,250)
+pen.write('Player A = {}, Player B = {}'.format(scoreA, scoreB),align='center',font='(arial,10)')
 
 window.listen()
 window.onkeypress(lambda : leftPad.sety(leftPad.ycor() if leftPad.ycor()>220 else leftPad.ycor()+pdy), 'w')
@@ -82,8 +92,12 @@ while True:
 
     # Else if ball hit the right wall
     elif(ball.xcor()>320 and not (ball.ycor() < rightPad.ycor() + 50 and ball.ycor() > rightPad.ycor() -50)):
+        scoreB+=1
+        pen.clear()
+        pen.write('Player A = {}, Player B = {}'.format(scoreA, scoreB),align='center',font='(arial,10)')
         print('hit the right wall')        
         printed=False
+        ball.goto(0,0)
 
     # If ball hit left pad
     if(ball.xcor()<-310 and ball.ycor() < leftPad.ycor() + 50 and ball.ycor() > leftPad.ycor() -50):        
@@ -92,6 +106,10 @@ while True:
 
     # If ball hit left wall
     elif(ball.xcor()<-320 and not (ball.ycor() < leftPad.ycor() + 50 and ball.ycor() > leftPad.ycor() -50)):
+        scoreA+=1
+        pen.clear()
+        pen.write('Player A = {}, Player B = {}'.format(scoreA, scoreB),align='center',font='(arial,10)')
         print('hit the left wall')        
         printed=False
+        ball.goto(0,0)
 

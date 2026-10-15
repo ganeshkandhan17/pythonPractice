@@ -6,684 +6,1674 @@ LOGIC BUILDING WITH LOOPS - QUESTIONS WITH SAMPLE INPUT / OUTPUT
 Phase 1: While Loop
 ================================================================
 
-1. Print all numbers from 1 to 10 using a loop.
-   Function: print_1_to_10_while
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 10
+1. Print all numbers from 1 to n using a loop.
+   Function: print_1_to_n_while
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 2 3 4 5
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       1 2 3 4 5 6 7 8 9 10
+   Sample 3:
+     Input:
+       n = 15
+     Output:
+       1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
-2. Print numbers from 10 down to 1 in reverse order.
-   Function: print_10_to_1_rev_while
-   Sample Input:
-    (none)
-   Sample Output:
-    10 9 8 7 6 5 4 3 2 1
+2. Print numbers from n down to 1 in reverse order.
+   Function: print_n_to_1_rev_while
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       5 4 3 2 1
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       10 9 8 7 6 5 4 3 2 1
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       3 2 1
 
-3. Print all even numbers between 1 and 100.
-   Function: even_1_to_100_while
-   Sample Input:
-    (none)
-   Sample Output:
-    2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100
+3. Print all even numbers between 1 and n.
+   Function: even_1_to_n_while
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       2 4 6 8 10
+   Sample 2:
+     Input:
+       n = 25
+     Output:
+       2 4 6 8 10 12 14 16 18 20 22 24
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
 
-4. Print all odd numbers between 1 and 100.
-   Function: odd_1_to_100_while
-   Sample Input:
-    (none)
-   Sample Output:
-    1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99
+4. Print all odd numbers between 1 and n.
+   Function: odd_1_to_n_while
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       1 3 5 7 9
+   Sample 2:
+     Input:
+       n = 25
+     Output:
+       1 3 5 7 9 11 13 15 17 19 21 23 25
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
 
 5. Print the multiplication table of a given number from n x 1 to n x 10.
    Function: multiplication_table_while
-   Sample Input:
-    n = 5
-   Sample Output:
-    5 x 1 = 5
-    5 x 2 = 10
-    5 x 3 = 15
-    5 x 4 = 20
-    5 x 5 = 25
-    5 x 6 = 30
-    5 x 7 = 35
-    5 x 8 = 40
-    5 x 9 = 45
-    5 x 10 = 50
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       5 x 1 = 5
+       5 x 2 = 10
+       5 x 3 = 15
+       5 x 4 = 20
+       5 x 5 = 25
+       5 x 6 = 30
+       5 x 7 = 35
+       5 x 8 = 40
+       5 x 9 = 45
+       5 x 10 = 50
+   Sample 2:
+     Input:
+       n = 12
+     Output:
+       12 x 1 = 12
+       12 x 2 = 24
+       12 x 3 = 36
+       12 x 4 = 48
+       12 x 5 = 60
+       12 x 6 = 72
+       12 x 7 = 84
+       12 x 8 = 96
+       12 x 9 = 108
+       12 x 10 = 120
 
 6. Calculate and print the sum of the first n natural numbers.
    Function: sum_n_natural_while
-   Sample Input:
-    n = 10
-   Sample Output:
-    Sum = 55
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       Sum = 55
+   Sample 2:
+     Input:
+       n = 5
+     Output:
+       Sum = 15
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       Sum = 5050
 
 7. Calculate the sum of all even numbers from 1 up to n.
    Function: sum_even_to_n_while
-   Sample Input:
-    n = 10
-   Sample Output:
-    Sum of even numbers = 30
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       Sum of even numbers = 30
+   Sample 2:
+     Input:
+       n = 7
+     Output:
+       Sum of even numbers = 12
+   Sample 3:
+     Input:
+       n = 20
+     Output:
+       Sum of even numbers = 110
 
 8. Calculate the sum of all odd numbers from 1 up to n.
    Function: sum_odd_to_n_while
-   Sample Input:
-    n = 10
-   Sample Output:
-    Sum of odd numbers = 25
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       Sum of odd numbers = 25
+   Sample 2:
+     Input:
+       n = 7
+     Output:
+       Sum of odd numbers = 16
+   Sample 3:
+     Input:
+       n = 20
+     Output:
+       Sum of odd numbers = 100
 
 9. Calculate and print the factorial of a given number.
    Function: factorial_while
-   Sample Input:
-    n = 5
-   Sample Output:
-    Factorial = 120
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       Factorial = 120
+   Sample 2:
+     Input:
+       n = 0
+     Output:
+       Factorial = 1
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       Factorial = 5040
 
 10. Find and print the product of all digits of a given number.
    Function: product_of_digits_while
-   Sample Input:
-    n = 234
-   Sample Output:
-    Product of digits = 24
+   Sample 1:
+     Input:
+       n = 234
+     Output:
+       Product of digits = 24
+   Sample 2:
+     Input:
+       n = 905
+     Output:
+       Product of digits = 0
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       Product of digits = 7
 
 11. Count and print the total number of digits in a given number.
    Function: count_digits_while
-   Sample Input:
-    n = 12345
-   Sample Output:
-    Total digits = 5
+   Sample 1:
+     Input:
+       n = 12345
+     Output:
+       Total digits = 5
+   Sample 2:
+     Input:
+       n = 7
+     Output:
+       Total digits = 1
+   Sample 3:
+     Input:
+       n = 1000000
+     Output:
+       Total digits = 7
 
 12. Reverse the given number and print the reversed value.
    Function: reverse_number_while
-   Sample Input:
-    n = 1234
-   Sample Output:
-    Reversed number = 4321
+   Sample 1:
+     Input:
+       n = 1234
+     Output:
+       Reversed number = 4321
+   Sample 2:
+     Input:
+       n = 5070
+     Output:
+       Reversed number = 705
+   Sample 3:
+     Input:
+       n = 9
+     Output:
+       Reversed number = 9
 
 13. Check whether the given number is a palindrome.
    Function: is_palindrome_while
-   Sample Input:
-    n = 121
-   Sample Output:
-    121 is a Palindrome
-    
-    (Another run) n = 123  ->  123 is not a Palindrome
+   Sample 1:
+     Input:
+       n = 121
+     Output:
+       121 is a Palindrome
+   Sample 2:
+     Input:
+       n = 123
+     Output:
+       123 is not a Palindrome
+   Sample 3:
+     Input:
+       n = 4554
+     Output:
+       4554 is a Palindrome
 
 14. Find and print the sum of digits of the given number.
    Function: sum_of_digits_while
-   Sample Input:
-    n = 1234
-   Sample Output:
-    Sum of digits = 10
+   Sample 1:
+     Input:
+       n = 1234
+     Output:
+       Sum of digits = 10
+   Sample 2:
+     Input:
+       n = 9875
+     Output:
+       Sum of digits = 29
+   Sample 3:
+     Input:
+       n = 5
+     Output:
+       Sum of digits = 5
 
 15. Check whether the given number is an Armstrong number.
    Function: is_armstrong_while
-   Sample Input:
-    n = 153
-   Sample Output:
-    153 is an Armstrong number  (1^3 + 5^3 + 3^3 = 153)
+   Sample 1:
+     Input:
+       n = 153
+     Output:
+       153 is an Armstrong number  (1^3 + 5^3 + 3^3 = 153)
+   Sample 2:
+     Input:
+       n = 123
+     Output:
+       123 is not an Armstrong number
+   Sample 3:
+     Input:
+       n = 9474
+     Output:
+       9474 is an Armstrong number  (9^4 + 4^4 + 7^4 + 4^4 = 9474)
 
 16. Check whether the given number is a Perfect number.
    Function: is_perfect_while
-   Sample Input:
-    n = 28
-   Sample Output:
-    28 is a Perfect number  (1 + 2 + 4 + 7 + 14 = 28)
+   Sample 1:
+     Input:
+       n = 28
+     Output:
+       28 is a Perfect number  (1 + 2 + 4 + 7 + 14 = 28)
+   Sample 2:
+     Input:
+       n = 12
+     Output:
+       12 is not a Perfect number
+   Sample 3:
+     Input:
+       n = 6
+     Output:
+       6 is a Perfect number  (1 + 2 + 3 = 6)
 
-17. Print all prime numbers between 1 and 100.
-   Function: prime_1_to_100_while
-   Sample Input:
-    (none)
-   Sample Output:
-    2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+17. Print all prime numbers between 1 and n.
+   Function: prime_1_to_n_while
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       2 3 5 7 11 13 17 19
+   Sample 2:
+     Input:
+       n = 50
+     Output:
+       2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 
 18. Check whether the given number is a prime number.
    Function: is_prime_while
-   Sample Input:
-    n = 17
-   Sample Output:
-    17 is a Prime number
-    
-    (Another run) n = 15  ->  15 is not a Prime number
+   Sample 1:
+     Input:
+       n = 17
+     Output:
+       17 is a Prime number
+   Sample 2:
+     Input:
+       n = 15
+     Output:
+       15 is not a Prime number
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1 is not a Prime number
 
 19. Print the Fibonacci series up to n terms.
    Function: fibonacci_n_terms_while
-   Sample Input:
-    n = 7
-   Sample Output:
-    0 1 1 2 3 5 8
+   Sample 1:
+     Input:
+       n = 7
+     Output:
+       0 1 1 2 3 5 8
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       0 1 1 2 3 5 8 13 21 34
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       0
 
 20. Find and print the sum of the Fibonacci series up to n terms.
    Function: sum_fibonacci_n_while
-   Sample Input:
-    n = 7
-   Sample Output:
-    Sum = 20   (0+1+1+2+3+5+8)
+   Sample 1:
+     Input:
+       n = 7
+     Output:
+       Sum = 20   (0+1+1+2+3+5+8)
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       Sum = 88   (0+1+1+2+3+5+8+13+21+34)
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       Sum = 2   (0+1+1)
 
 21. Print the square of each number from 1 to n.
    Function: squares_1_to_n_while
-   Sample Input:
-    n = 5
-   Sample Output:
-    1 4 9 16 25
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 4 9 16 25
+   Sample 2:
+     Input:
+       n = 8
+     Output:
+       1 4 9 16 25 36 49 64
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       1 4 9
 
 22. Print the cube of each number from 1 to n.
    Function: cubes_1_to_n_while
-   Sample Input:
-    n = 5
-   Sample Output:
-    1 8 27 64 125
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 8 27 64 125
+   Sample 2:
+     Input:
+       n = 8
+     Output:
+       1 8 27 64 125 216 343 512
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       1 8 27
 
 23. Print all numbers between a and b that are divisible by 7.
    Function: divisible_by_7_range_while
-   Sample Input:
-    a = 10, b = 50
-   Sample Output:
-    14 21 28 35 42 49
+   Sample 1:
+     Input:
+       a = 10, b = 50
+     Output:
+       14 21 28 35 42 49
+   Sample 2:
+     Input:
+       a = 1, b = 30
+     Output:
+       7 14 21 28
+   Sample 3:
+     Input:
+       a = 50, b = 100
+     Output:
+       56 63 70 77 84 91 98
 
 24. Print all factors of the given number.
    Function: factors_while
-   Sample Input:
-    n = 12
-   Sample Output:
-    1 2 3 4 6 12
+   Sample 1:
+     Input:
+       n = 12
+     Output:
+       1 2 3 4 6 12
+   Sample 2:
+     Input:
+       n = 36
+     Output:
+       1 2 3 4 6 9 12 18 36
+   Sample 3:
+     Input:
+       n = 13
+     Output:
+       1 13
 
 25. Find and print the sum of all factors of the given number.
    Function: sum_factors_while
-   Sample Input:
-    n = 12
-   Sample Output:
-    Sum of factors = 28   (1+2+3+4+6+12)
+   Sample 1:
+     Input:
+       n = 12
+     Output:
+       Sum of factors = 28   (1+2+3+4+6+12)
+   Sample 2:
+     Input:
+       n = 36
+     Output:
+       Sum of factors = 91   (1+2+3+4+6+9+12+18+36)
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       Sum of factors = 8   (1+7)
 
 26. Find the HCF (Highest Common Factor) of two given numbers.
    Function: hcf_while
-   Sample Input:
-    a = 12, b = 18
-   Sample Output:
-    HCF = 6
+   Sample 1:
+     Input:
+       a = 12, b = 18
+     Output:
+       HCF = 6
+   Sample 2:
+     Input:
+       a = 48, b = 36
+     Output:
+       HCF = 12
+   Sample 3:
+     Input:
+       a = 17, b = 5
+     Output:
+       HCF = 1
 
 27. Find the LCM (Least Common Multiple) of two given numbers.
    Function: lcm_while
-   Sample Input:
-    a = 4, b = 6
-   Sample Output:
-    LCM = 12
+   Sample 1:
+     Input:
+       a = 4, b = 6
+     Output:
+       LCM = 12
+   Sample 2:
+     Input:
+       a = 15, b = 20
+     Output:
+       LCM = 60
+   Sample 3:
+     Input:
+       a = 7, b = 3
+     Output:
+       LCM = 21
 
 28. Find the smallest digit in the given number.
    Function: smallest_digit_while
-   Sample Input:
-    n = 4251
-   Sample Output:
-    Smallest digit = 1
+   Sample 1:
+     Input:
+       n = 4251
+     Output:
+       Smallest digit = 1
+   Sample 2:
+     Input:
+       n = 9087
+     Output:
+       Smallest digit = 0
+   Sample 3:
+     Input:
+       n = 777
+     Output:
+       Smallest digit = 7
 
 29. Find the largest digit in the given number.
    Function: largest_digit_while
-   Sample Input:
-    n = 4251
-   Sample Output:
-    Largest digit = 5
+   Sample 1:
+     Input:
+       n = 4251
+     Output:
+       Largest digit = 5
+   Sample 2:
+     Input:
+       n = 9087
+     Output:
+       Largest digit = 9
+   Sample 3:
+     Input:
+       n = 777
+     Output:
+       Largest digit = 7
+
 
 ================================================================
 Phase 2: do - While Loop
 ================================================================
 
-1. Print all numbers from 1 to 10.
-   Function: print_1_to_10_dowhile
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 10
+1. Print all numbers from 1 to n.
+   Function: print_1_to_n_dowhile
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 2 3 4 5
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       1 2 3 4 5 6 7 8 9 10
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1
 
 2. Print the multiplication table of a given number.
    Function: multiplication_table_dowhile
-   Sample Input:
-    n = 7
-   Sample Output:
-    7 x 1 = 7
-    7 x 2 = 14
-    7 x 3 = 21
-    7 x 4 = 28
-    7 x 5 = 35
-    7 x 6 = 42
-    7 x 7 = 49
-    7 x 8 = 56
-    7 x 9 = 63
-    7 x 10 = 70
+   Sample 1:
+     Input:
+       n = 7
+     Output:
+       7 x 1 = 7
+       7 x 2 = 14
+       7 x 3 = 21
+       7 x 4 = 28
+       7 x 5 = 35
+       7 x 6 = 42
+       7 x 7 = 49
+       7 x 8 = 56
+       7 x 9 = 63
+       7 x 10 = 70
+   Sample 2:
+     Input:
+       n = 12
+     Output:
+       12 x 1 = 12
+       12 x 2 = 24
+       12 x 3 = 36
+       12 x 4 = 48
+       12 x 5 = 60
+       12 x 6 = 72
+       12 x 7 = 84
+       12 x 8 = 96
+       12 x 9 = 108
+       12 x 10 = 120
 
 3. Keep taking numbers from the user until 0 is entered, then print the sum of all entered numbers.
    Function: sum_until_zero_dowhile
-   Sample Input:
-    5 10 3 0
-   Sample Output:
-    Sum = 18
+   Sample 1:
+     Input:
+       5 10 3 0
+     Output:
+       Sum = 18
+   Sample 2:
+     Input:
+       1 2 3 4 5 0
+     Output:
+       Sum = 15
+   Sample 3:
+     Input:
+       0
+     Output:
+       Sum = 0
 
 4. Keep taking numbers from the user until 0 is entered, then print the largest number among all inputs.
    Function: largest_until_zero_dowhile
-   Sample Input:
-    4 9 2 7 0
-   Sample Output:
-    Largest number = 9
+   Sample 1:
+     Input:
+       4 9 2 7 0
+     Output:
+       Largest number = 9
+   Sample 2:
+     Input:
+       15 3 22 8 0
+     Output:
+       Largest number = 22
+   Sample 3:
+     Input:
+       -5 -2 -9 0
+     Output:
+       Largest number = -2
 
 5. Count and print the number of digits in the given number.
    Function: count_digits_dowhile
-   Sample Input:
-    n = 98765
-   Sample Output:
-    Number of digits = 5
+   Sample 1:
+     Input:
+       n = 98765
+     Output:
+       Number of digits = 5
+   Sample 2:
+     Input:
+       n = 7
+     Output:
+       Number of digits = 1
+   Sample 3:
+     Input:
+       n = 100200
+     Output:
+       Number of digits = 6
 
 6. Reverse the given number and print the reversed value.
    Function: reverse_number_dowhile
-   Sample Input:
-    n = 5072
-   Sample Output:
-    Reversed number = 2705
+   Sample 1:
+     Input:
+       n = 5072
+     Output:
+       Reversed number = 2705
+   Sample 2:
+     Input:
+       n = 120
+     Output:
+       Reversed number = 21
+   Sample 3:
+     Input:
+       n = 9001
+     Output:
+       Reversed number = 1009
 
 7. Check whether the given number is a palindrome.
    Function: is_palindrome_dowhile
-   Sample Input:
-    n = 1221
-   Sample Output:
-    1221 is a Palindrome
-    
-    (Another run) n = 1234  ->  1234 is not a Palindrome
+   Sample 1:
+     Input:
+       n = 1221
+     Output:
+       1221 is a Palindrome
+   Sample 2:
+     Input:
+       n = 1234
+     Output:
+       1234 is not a Palindrome
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       7 is a Palindrome
 
 8. Check whether the given number is an Armstrong number.
    Function: is_armstrong_dowhile
-   Sample Input:
-    n = 371
-   Sample Output:
-    371 is an Armstrong number  (3^3 + 7^3 + 1^3 = 371)
-    
-    (Another run) n = 123  ->  123 is not an Armstrong number
+   Sample 1:
+     Input:
+       n = 371
+     Output:
+       371 is an Armstrong number  (3^3 + 7^3 + 1^3 = 371)
+   Sample 2:
+     Input:
+       n = 123
+     Output:
+       123 is not an Armstrong number
+   Sample 3:
+     Input:
+       n = 9474
+     Output:
+       9474 is an Armstrong number  (9^4 + 4^4 + 7^4 + 4^4 = 9474)
 
 9. Calculate and print the factorial of the given number.
    Function: factorial_dowhile
-   Sample Input:
-    n = 6
-   Sample Output:
-    Factorial = 720
+   Sample 1:
+     Input:
+       n = 6
+     Output:
+       Factorial = 720
+   Sample 2:
+     Input:
+       n = 0
+     Output:
+       Factorial = 1
+   Sample 3:
+     Input:
+       n = 10
+     Output:
+       Factorial = 3628800
 
 10. Print the Fibonacci series up to the required number of terms.
    Function: fibonacci_dowhile
-   Sample Input:
-    terms = 8
-   Sample Output:
-    0 1 1 2 3 5 8 13
+   Sample 1:
+     Input:
+       terms = 8
+     Output:
+       0 1 1 2 3 5 8 13
+   Sample 2:
+     Input:
+       terms = 5
+     Output:
+       0 1 1 2 3
+   Sample 3:
+     Input:
+       terms = 12
+     Output:
+       0 1 1 2 3 5 8 13 21 34 55 89
 
 11. Find the HCF (Highest Common Factor) of the given numbers.
    Function: hcf_dowhile
-   Sample Input:
-    a = 48, b = 36
-   Sample Output:
-    HCF = 12
+   Sample 1:
+     Input:
+       a = 48, b = 36
+     Output:
+       HCF = 12
+   Sample 2:
+     Input:
+       a = 100, b = 75
+     Output:
+       HCF = 25
+   Sample 3:
+     Input:
+       a = 13, b = 7
+     Output:
+       HCF = 1
 
-12. Create a menu-driven program that allows the user to choose and perform different operations.
+12. Create a menu-driven program that allows the user to choose and perform different operations (Add, Subtract, Multiply, Divide, Exit). Show an error for division by zero and for an invalid choice.
    Function: menu_driven_dowhile
-   Sample Input:
-    Choices entered: 1 (a=10, b=5), 3 (a=4, b=6), 5
-   Sample Output:
-    ===== MENU =====
-    1. Add
-    2. Subtract
-    3. Multiply
-    4. Divide
-    5. Exit
-    Enter choice: 1
-    Enter two numbers: 10 5
-    Result = 15
-    
-    Enter choice: 3
-    Enter two numbers: 4 6
-    Result = 24
-    
-    Enter choice: 5
-    Exiting program...
+   Sample 1:
+     Input:
+       Choices entered: 1 (a=10, b=5), 3 (a=4, b=6), 5
+     Output:
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 1
+       Enter two numbers: 10 5
+       Result = 15
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 3
+       Enter two numbers: 4 6
+       Result = 24
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 5
+       Exiting program...
+   Sample 2:
+     Input:
+       Choices entered: 2 (a=9, b=4), 4 (a=20, b=5), 5
+     Output:
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 2
+       Enter two numbers: 9 4
+       Result = 5
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 4
+       Enter two numbers: 20 5
+       Result = 4
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 5
+       Exiting program...
+   Sample 3:
+     Input:
+       Choices entered: 4 (a=8, b=0), 6, 5
+     Output:
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 4
+       Enter two numbers: 8 0
+       Error: cannot divide by zero
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 6
+       Invalid choice. Try again.
+
+       ===== MENU =====
+       1. Add
+       2. Subtract
+       3. Multiply
+       4. Divide
+       5. Exit
+       Enter choice: 5
+       Exiting program...
 
 13. Keep taking numbers from the user until a negative number is entered, then count how many positive numbers were entered.
    Function: count_positives_until_neg_dowhile
-   Sample Input:
-    4 7 0 9 -1
-   Sample Output:
-    Positive numbers entered = 3   (0 is not positive)
+   Sample 1:
+     Input:
+       4 7 0 9 -1
+     Output:
+       Positive numbers entered = 3   (0 is not positive)
+   Sample 2:
+     Input:
+       1 2 3 -5
+     Output:
+       Positive numbers entered = 3
+   Sample 3:
+     Input:
+       -1
+     Output:
+       Positive numbers entered = 0
 
 14. Find and print the sum of digits of the given number.
    Function: sum_digits_dowhile
-   Sample Input:
-    n = 9875
-   Sample Output:
-    Sum of digits = 29
+   Sample 1:
+     Input:
+       n = 9875
+     Output:
+       Sum of digits = 29
+   Sample 2:
+     Input:
+       n = 1234
+     Output:
+       Sum of digits = 10
+   Sample 3:
+     Input:
+       n = 5
+     Output:
+       Sum of digits = 5
 
 15. Calculate and print the sum of even digits and the sum of odd digits of the given number separately.
    Function: sum_even_odd_digits_dowhile
-   Sample Input:
-    n = 12345
-   Sample Output:
-    Sum of even digits = 6
-    Sum of odd digits = 9
+   Sample 1:
+     Input:
+       n = 12345
+     Output:
+       Sum of even digits = 6
+       Sum of odd digits = 9
+   Sample 2:
+     Input:
+       n = 2468
+     Output:
+       Sum of even digits = 20
+       Sum of odd digits = 0
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       Sum of even digits = 0
+       Sum of odd digits = 7
+
 
 ================================================================
 Phase 3: For Loop
 ================================================================
 
-1. Print all numbers from 1 to 10.
-   Function: print_1_to_10_for
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 10
+1. Print all numbers from 1 to n.
+   Function: print_1_to_n_for
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 2 3 4 5
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       1 2 3 4 5 6 7 8 9 10
+   Sample 3:
+     Input:
+       n = 15
+     Output:
+       1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
-2. Print numbers from 10 down to 1 in reverse order.
-   Function: print_10_to_1_rev_for
-   Sample Input:
-    (none)
-   Sample Output:
-    10 9 8 7 6 5 4 3 2 1
+2. Print numbers from n down to 1 in reverse order.
+   Function: print_n_to_1_rev_for
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       5 4 3 2 1
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       10 9 8 7 6 5 4 3 2 1
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       3 2 1
 
-3. Print all even numbers between 1 and 100.
-   Function: even_1_to_100_for
-   Sample Input:
-    (none)
-   Sample Output:
-    2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94 96 98 100
+3. Print all even numbers between 1 and n.
+   Function: even_1_to_n_for
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       2 4 6 8 10
+   Sample 2:
+     Input:
+       n = 25
+     Output:
+       2 4 6 8 10 12 14 16 18 20 22 24
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
 
-4. Print all odd numbers between 1 and 100.
-   Function: odd_1_to_100_for
-   Sample Input:
-    (none)
-   Sample Output:
-    1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 83 85 87 89 91 93 95 97 99
+4. Print all odd numbers between 1 and n.
+   Function: odd_1_to_n_for
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       1 3 5 7 9
+   Sample 2:
+     Input:
+       n = 25
+     Output:
+       1 3 5 7 9 11 13 15 17 19 21 23 25
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
 
 5. Print the multiplication table of a given number.
    Function: multiplication_table_for
-   Sample Input:
-    n = 9
-   Sample Output:
-    9 x 1 = 9
-    9 x 2 = 18
-    9 x 3 = 27
-    9 x 4 = 36
-    9 x 5 = 45
-    9 x 6 = 54
-    9 x 7 = 63
-    9 x 8 = 72
-    9 x 9 = 81
-    9 x 10 = 90
+   Sample 1:
+     Input:
+       n = 9
+     Output:
+       9 x 1 = 9
+       9 x 2 = 18
+       9 x 3 = 27
+       9 x 4 = 36
+       9 x 5 = 45
+       9 x 6 = 54
+       9 x 7 = 63
+       9 x 8 = 72
+       9 x 9 = 81
+       9 x 10 = 90
+   Sample 2:
+     Input:
+       n = 15
+     Output:
+       15 x 1 = 15
+       15 x 2 = 30
+       15 x 3 = 45
+       15 x 4 = 60
+       15 x 5 = 75
+       15 x 6 = 90
+       15 x 7 = 105
+       15 x 8 = 120
+       15 x 9 = 135
+       15 x 10 = 150
 
 6. Calculate and print the factorial of a given number.
    Function: factorial_for
-   Sample Input:
-    n = 5
-   Sample Output:
-    Factorial = 120
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       Factorial = 120
+   Sample 2:
+     Input:
+       n = 0
+     Output:
+       Factorial = 1
+   Sample 3:
+     Input:
+       n = 8
+     Output:
+       Factorial = 40320
 
 7. Calculate and print the factorial of every number from 1 to n.
    Function: factorials_1_to_n_for
-   Sample Input:
-    n = 5
-   Sample Output:
-    1! = 1
-    2! = 2
-    3! = 6
-    4! = 24
-    5! = 120
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1! = 1
+       2! = 2
+       3! = 6
+       4! = 24
+       5! = 120
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1! = 1
+       2! = 2
+       3! = 6
 
-8. Print all prime numbers between 1 and 100.
-   Function: primes_1_to_100_for
-   Sample Input:
-    (none)
-   Sample Output:
-    2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+8. Print all prime numbers between 1 and n.
+   Function: primes_1_to_n_for
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       2 3 5 7 11 13 17 19
+   Sample 2:
+     Input:
+       n = 50
+     Output:
+       2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
 
 9. Check whether the given number is a prime number.
    Function: is_prime_for
-   Sample Input:
-    n = 29
-   Sample Output:
-    29 is a Prime number
-    
-    (Another run) n = 21  ->  21 is not a Prime number
+   Sample 1:
+     Input:
+       n = 29
+     Output:
+       29 is a Prime number
+   Sample 2:
+     Input:
+       n = 21
+     Output:
+       21 is not a Prime number
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       2 is a Prime number
 
 10. Print the Fibonacci series up to the required number of terms.
    Function: fibonacci_for
-   Sample Input:
-    terms = 10
-   Sample Output:
-    0 1 1 2 3 5 8 13 21 34
+   Sample 1:
+     Input:
+       terms = 10
+     Output:
+       0 1 1 2 3 5 8 13 21 34
+   Sample 2:
+     Input:
+       terms = 6
+     Output:
+       0 1 1 2 3 5
+   Sample 3:
+     Input:
+       terms = 1
+     Output:
+       0
 
 11. Find and print the sum of the Fibonacci series.
    Function: sum_fibonacci_for
-   Sample Input:
-    terms = 10
-   Sample Output:
-    Sum = 88
+   Sample 1:
+     Input:
+       terms = 10
+     Output:
+       Sum = 88
+   Sample 2:
+     Input:
+       terms = 5
+     Output:
+       Sum = 7
+   Sample 3:
+     Input:
+       terms = 7
+     Output:
+       Sum = 20
 
 12. Print all factors of the given number.
    Function: factors_for
-   Sample Input:
-    n = 36
-   Sample Output:
-    1 2 3 4 6 9 12 18 36
+   Sample 1:
+     Input:
+       n = 36
+     Output:
+       1 2 3 4 6 9 12 18 36
+   Sample 2:
+     Input:
+       n = 20
+     Output:
+       1 2 4 5 10 20
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       1 7
 
 13. Find and print the sum of all factors of the given number.
    Function: sum_factors_for
-   Sample Input:
-    n = 36
-   Sample Output:
-    Sum of factors = 91
+   Sample 1:
+     Input:
+       n = 36
+     Output:
+       Sum of factors = 91
+   Sample 2:
+     Input:
+       n = 20
+     Output:
+       Sum of factors = 42
+   Sample 3:
+     Input:
+       n = 7
+     Output:
+       Sum of factors = 8
 
 14. Find the HCF (Highest Common Factor) of the given numbers.
    Function: hcf_for
-   Sample Input:
-    a = 24, b = 36
-   Sample Output:
-    HCF = 12
+   Sample 1:
+     Input:
+       a = 24, b = 36
+     Output:
+       HCF = 12
+   Sample 2:
+     Input:
+       a = 17, b = 5
+     Output:
+       HCF = 1
+   Sample 3:
+     Input:
+       a = 100, b = 45
+     Output:
+       HCF = 5
 
 15. Find the LCM (Least Common Multiple) of the given numbers.
    Function: lcm_for
-   Sample Input:
-    a = 15, b = 20
-   Sample Output:
-    LCM = 60
+   Sample 1:
+     Input:
+       a = 15, b = 20
+     Output:
+       LCM = 60
+   Sample 2:
+     Input:
+       a = 4, b = 6
+     Output:
+       LCM = 12
+   Sample 3:
+     Input:
+       a = 7, b = 5
+     Output:
+       LCM = 35
 
 16. Print the square of each number from 1 to n.
    Function: squares_1_to_n_for
-   Sample Input:
-    n = 6
-   Sample Output:
-    1 4 9 16 25 36
+   Sample 1:
+     Input:
+       n = 6
+     Output:
+       1 4 9 16 25 36
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1 4 9 16
+   Sample 3:
+     Input:
+       n = 10
+     Output:
+       1 4 9 16 25 36 49 64 81 100
 
 17. Print the cube of each number from 1 to n.
    Function: cubes_1_to_n_for
-   Sample Input:
-    n = 6
-   Sample Output:
-    1 8 27 64 125 216
+   Sample 1:
+     Input:
+       n = 6
+     Output:
+       1 8 27 64 125 216
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1 8 27 64
+   Sample 3:
+     Input:
+       n = 10
+     Output:
+       1 8 27 64 125 216 343 512 729 1000
 
 18. Print all numbers between a and b that are divisible by 7.
    Function: divisible_by_7_range_for
-   Sample Input:
-    a = 1, b = 60
-   Sample Output:
-    7 14 21 28 35 42 49 56
+   Sample 1:
+     Input:
+       a = 1, b = 60
+     Output:
+       7 14 21 28 35 42 49 56
+   Sample 2:
+     Input:
+       a = 10, b = 50
+     Output:
+       14 21 28 35 42 49
+   Sample 3:
+     Input:
+       a = 20, b = 40
+     Output:
+       21 28 35
 
 19. Find and print the sum of the first n natural numbers.
    Function: sum_natural_for
-   Sample Input:
-    n = 20
-   Sample Output:
-    Sum = 210
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       Sum = 210
+   Sample 2:
+     Input:
+       n = 5
+     Output:
+       Sum = 15
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       Sum = 5050
 
 20. Find and print the sum of all even numbers from 1 up to n.
    Function: sum_even_to_n_for
-   Sample Input:
-    n = 20
-   Sample Output:
-    Sum of even numbers = 110
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       Sum of even numbers = 110
+   Sample 2:
+     Input:
+       n = 9
+     Output:
+       Sum of even numbers = 20
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       Sum of even numbers = 650
 
 21. Find and print the sum of all odd numbers from 1 up to n.
    Function: sum_odd_to_n_for
-   Sample Input:
-    n = 20
-   Sample Output:
-    Sum of odd numbers = 100
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       Sum of odd numbers = 100
+   Sample 2:
+     Input:
+       n = 9
+     Output:
+       Sum of odd numbers = 25
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       Sum of odd numbers = 625
+
 
 ================================================================
 Phase 4: Nested Loop Logic
 ================================================================
 
-1. Print the multiplication tables for all numbers from 1 to 10.
-   Function: mult_tables_1_to_10_nested
-   Sample Input:
-    (none)  [each line = one table: n x 1 ... n x 10]
-   Sample Output:
-    Table of  1:   1   2   3   4   5   6   7   8   9  10
-    Table of  2:   2   4   6   8  10  12  14  16  18  20
-    Table of  3:   3   6   9  12  15  18  21  24  27  30
-    Table of  4:   4   8  12  16  20  24  28  32  36  40
-    Table of  5:   5  10  15  20  25  30  35  40  45  50
-    Table of  6:   6  12  18  24  30  36  42  48  54  60
-    Table of  7:   7  14  21  28  35  42  49  56  63  70
-    Table of  8:   8  16  24  32  40  48  56  64  72  80
-    Table of  9:   9  18  27  36  45  54  63  72  81  90
-    Table of 10:  10  20  30  40  50  60  70  80  90 100
+1. Print the multiplication tables for all numbers from 1 to n (each line = one table: i x 1 ... i x 10).
+   Function: mult_tables_1_to_n_nested
+   Sample 1:
+     Input:
+       n = 3
+     Output:
+       Table of 1:    1   2   3   4   5   6   7   8   9  10
+       Table of 2:    2   4   6   8  10  12  14  16  18  20
+       Table of 3:    3   6   9  12  15  18  21  24  27  30
+   Sample 2:
+     Input:
+       n = 5
+     Output:
+       Table of 1:    1   2   3   4   5   6   7   8   9  10
+       Table of 2:    2   4   6   8  10  12  14  16  18  20
+       Table of 3:    3   6   9  12  15  18  21  24  27  30
+       Table of 4:    4   8  12  16  20  24  28  32  36  40
+       Table of 5:    5  10  15  20  25  30  35  40  45  50
+   Sample 3:
+     Input:
+       n = 10
+     Output:
+       Table of  1:    1   2   3   4   5   6   7   8   9  10
+       Table of  2:    2   4   6   8  10  12  14  16  18  20
+       Table of  3:    3   6   9  12  15  18  21  24  27  30
+       Table of  4:    4   8  12  16  20  24  28  32  36  40
+       Table of  5:    5  10  15  20  25  30  35  40  45  50
+       Table of  6:    6  12  18  24  30  36  42  48  54  60
+       Table of  7:    7  14  21  28  35  42  49  56  63  70
+       Table of  8:    8  16  24  32  40  48  56  64  72  80
+       Table of  9:    9  18  27  36  45  54  63  72  81  90
+       Table of 10:   10  20  30  40  50  60  70  80  90 100
 
 2. Print all possible pairs (i, j) where both i and j range from 1 to n.
    Function: pairs_i_j_nested
-   Sample Input:
-    n = 3
-   Sample Output:
-    (1,1) (1,2) (1,3) (2,1) (2,2) (2,3) (3,1) (3,2) (3,3)
+   Sample 1:
+     Input:
+       n = 2
+     Output:
+       (1,1) (1,2) (2,1) (2,2)
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       (1,1) (1,2) (1,3) (2,1) (2,2) (2,3) (3,1) (3,2) (3,3)
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       (1,1) (1,2) (1,3) (1,4) (2,1) (2,2) (2,3) (2,4) (3,1) (3,2) (3,3) (3,4) (4,1) (4,2) (4,3) (4,4)
 
 3. For every number from 1 to n, count and print the total number of its factors.
    Function: count_factors_1_to_n_nested
-   Sample Input:
-    n = 10
-   Sample Output:
-    1 -> 1 factors
-    2 -> 2 factors
-    3 -> 2 factors
-    4 -> 3 factors
-    5 -> 2 factors
-    6 -> 4 factors
-    7 -> 2 factors
-    8 -> 4 factors
-    9 -> 3 factors
-    10 -> 4 factors
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 -> 1 factors
+       2 -> 2 factors
+       3 -> 2 factors
+       4 -> 3 factors
+       5 -> 2 factors
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       1 -> 1 factors
+       2 -> 2 factors
+       3 -> 2 factors
+       4 -> 3 factors
+       5 -> 2 factors
+       6 -> 4 factors
+       7 -> 2 factors
+       8 -> 4 factors
+       9 -> 3 factors
+       10 -> 4 factors
 
 4. Print all prime numbers up to n using nested loop checking.
    Function: primes_up_to_n_nested
-   Sample Input:
-    n = 30
-   Sample Output:
-    2 3 5 7 11 13 17 19 23 29
+   Sample 1:
+     Input:
+       n = 30
+     Output:
+       2 3 5 7 11 13 17 19 23 29
+   Sample 2:
+     Input:
+       n = 12
+     Output:
+       2 3 5 7 11
+   Sample 3:
+     Input:
+       n = 50
+     Output:
+       2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
 
 5. Print the Fibonacci pattern row by row, where each row prints the next Fibonacci numbers.
    Function: fibonacci_pattern_nested
-   Sample Input:
-    rows = 4
-   Sample Output:
-    0
-    1 1
-    2 3 5
-    8 13 21 34
+   Sample 1:
+     Input:
+       rows = 4
+     Output:
+       0
+       1 1
+       2 3 5
+       8 13 21 34
+   Sample 2:
+     Input:
+       rows = 3
+     Output:
+       0
+       1 1
+       2 3 5
+   Sample 3:
+     Input:
+       rows = 5
+     Output:
+       0
+       1 1
+       2 3 5
+       8 13 21 34
+       55 89 144 233 377
 
 6. Generate and print a number triangle pattern using nested loops.
    Function: number_triangle_nested
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    12
-    123
-    1234
-    12345
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       12
+       123
+       1234
+       12345
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1
+       12
+       123
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       1
+       12
+       123
+       1234
 
 7. Print a matrix, then calculate and display the sum of each row and the sum of each column.
    Function: matrix_row_col_sum_nested
-   Sample Input:
-    3 x 3 matrix:
-    1 2 3
-    4 5 6
-    7 8 9
-   Sample Output:
-    Matrix:
-    1 2 3
-    4 5 6
-    7 8 9
-    
-    Row sums:    6 15 24
-    Column sums: 12 15 18
+   Sample 1:
+     Input:
+       3 x 3 matrix:
+       1 2 3
+       4 5 6
+       7 8 9
+     Output:
+       Matrix:
+       1 2 3
+       4 5 6
+       7 8 9
+
+       Row sums:    6 15 24
+       Column sums: 12 15 18
+   Sample 2:
+     Input:
+       2 x 3 matrix:
+       1 2 3
+       4 5 6
+     Output:
+       Matrix:
+       1 2 3
+       4 5 6
+
+       Row sums:    6 15
+       Column sums: 5 7 9
+   Sample 3:
+     Input:
+       2 x 2 matrix:
+       2 0
+       5 3
+     Output:
+       Matrix:
+       2 0
+       5 3
+
+       Row sums:    2 8
+       Column sums: 7 3
 
 8. Print all Pythagorean triplets whose values are less than or equal to n.
    Function: pythagorean_triplets_nested
-   Sample Input:
-    n = 20
-   Sample Output:
-    (3, 4, 5)
-    (6, 8, 10)
-    (5, 12, 13)
-    (9, 12, 15)
-    (8, 15, 17)
-    (12, 16, 20)
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       (3, 4, 5)
+       (6, 8, 10)
+       (5, 12, 13)
+       (9, 12, 15)
+       (8, 15, 17)
+       (12, 16, 20)
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       (3, 4, 5)
+       (6, 8, 10)
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       No triplets found
+
 
 ================================================================
 Phase 5: Break / Continue Logic
 ================================================================
 
-1. Print numbers from 1 to 100, and stop the loop as soon as a number divisible by 17 is encountered.
-   Function: stop_at_div_17_break
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
-    Loop stopped at 17
+1. Print numbers from 1 to n, and stop the loop as soon as a number divisible by k is encountered.
+   Function: stop_at_div_k_break
+   Sample 1:
+     Input:
+       n = 100, k = 17
+     Output:
+       1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+       Loop stopped at 17
+   Sample 2:
+     Input:
+       n = 50, k = 7
+     Output:
+       1 2 3 4 5 6
+       Loop stopped at 7
+   Sample 3:
+     Input:
+       n = 10, k = 13
+     Output:
+       1 2 3 4 5 6 7 8 9 10
+       No number divisible by 13 found
 
-2. Print numbers from 1 to 100, but skip all numbers that are divisible by 5 and continue printing the rest.
-   Function: skip_div_5_continue
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19 21 22 23 24 26 27 28 29 31 32 33 34 36 37 38 39 41 42 43 44 46 47 48 49 51 52 53 54 56 57 58 59 61 62 63 64 66 67 68 69 71 72 73 74 76 77 78 79 81 82 83 84 86 87 88 89 91 92 93 94 96 97 98 99
+2. Print numbers from 1 to n, but skip all numbers that are divisible by k and continue printing the rest.
+   Function: skip_div_k_continue
+   Sample 1:
+     Input:
+       n = 20, k = 5
+     Output:
+       1 2 3 4 6 7 8 9 11 12 13 14 16 17 18 19
+   Sample 2:
+     Input:
+       n = 15, k = 3
+     Output:
+       1 2 4 5 7 8 10 11 13 14
+   Sample 3:
+     Input:
+       n = 10, k = 2
+     Output:
+       1 3 5 7 9
 
 3. Take 5 numbers as input, skip any number that is 0 using continue, and calculate the sum of the remaining numbers.
    Function: sum_skip_zero_continue
-   Sample Input:
-    3 0 5 0 2
-   Sample Output:
-    Sum of non-zero numbers = 10
+   Sample 1:
+     Input:
+       3 0 5 0 2
+     Output:
+       Sum of non-zero numbers = 10
+   Sample 2:
+     Input:
+       0 0 0 0 0
+     Output:
+       Sum of non-zero numbers = 0
+   Sample 3:
+     Input:
+       -4 7 0 1 6
+     Output:
+       Sum of non-zero numbers = 10
 
 4. Search for a specific number in a list of inputs, and terminate the loop immediately when the number is found.
    Function: search_terminate_break
-   Sample Input:
-    Search for: 7
-    List: 4 9 7 2 5
-   Sample Output:
-    Number 7 found at position 3
-    (loop terminated; remaining inputs not checked)
+   Sample 1:
+     Input:
+       Search for: 7
+       List: 4 9 7 2 5
+     Output:
+       Number 7 found at position 3
+       (loop terminated; remaining inputs not checked)
+   Sample 2:
+     Input:
+       Search for: 8
+       List: 1 2 3 4
+     Output:
+       Number 8 not found in the list
+   Sample 3:
+     Input:
+       Search for: 5
+       List: 5 6 7
+     Output:
+       Number 5 found at position 1
+       (loop terminated; remaining inputs not checked)
 
 5. Keep taking numbers from the user and print them until a negative number appears, then stop the loop.
    Function: stop_on_negative_break
-   Sample Input:
-    5 8 2 -1 9
-   Sample Output:
-    5
-    8
-    2
-    (loop stops at -1)
+   Sample 1:
+     Input:
+       5 8 2 -1 9
+     Output:
+       5
+       8
+       2
+       (loop stops at -1)
+   Sample 2:
+     Input:
+       3 -2
+     Output:
+       3
+       (loop stops at -2)
+   Sample 3:
+     Input:
+       -7 4
+     Output:
+       (loop stops at -7)
 
-6. Skip all odd numbers and print only the even numbers.
+6. Skip all odd numbers and print only the even numbers from 1 to n.
    Function: skip_odd_continue
-   Sample Input:
-    (none)  [range 1 to 20]
-   Sample Output:
-    2 4 6 8 10 12 14 16 18 20
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       2 4 6 8 10 12 14 16 18 20
+   Sample 2:
+     Input:
+       n = 9
+     Output:
+       2 4 6 8
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       2
 
 7. Continuously add numbers in a loop and stop the loop when the sum becomes greater than 100.
    Function: stop_sum_gt_100_break
-   Sample Input:
-    30 40 20 25
-   Sample Output:
-    Running sum: 30, 70, 90, 115
-    Sum exceeded 100 -> loop stopped. Final sum = 115
+   Sample 1:
+     Input:
+       30 40 20 25
+     Output:
+       Running sum: 30, 70, 90, 115
+       Sum exceeded 100 -> loop stopped. Final sum = 115
+   Sample 2:
+     Input:
+       50 60 10
+     Output:
+       Running sum: 50, 110
+       Sum exceeded 100 -> loop stopped. Final sum = 110
+   Sample 3:
+     Input:
+       10 20 30 40 50
+     Output:
+       Running sum: 10, 30, 60, 100, 150
+       Sum exceeded 100 -> loop stopped. Final sum = 150
+
 
 ================================================================
 Phase 6: Mathematical Series
@@ -691,442 +1681,1062 @@ Phase 6: Mathematical Series
 
 1. Find and print the sum of the first n natural numbers.
    Function: series_sum_natural
-   Sample Input:
-    n = 10
-   Sample Output:
-    Sum = 55
+   Sample 1:
+     Input:
+       n = 10
+     Output:
+       Sum = 55
+   Sample 2:
+     Input:
+       n = 5
+     Output:
+       Sum = 15
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       Sum = 5050
 
 2. Find and print the sum of the first n even numbers.
    Function: series_sum_even
-   Sample Input:
-    n = 5
-   Sample Output:
-    2 + 4 + 6 + 8 + 10 = 30
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       2 + 4 + 6 + 8 + 10 = 30
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       2 + 4 + 6 = 12
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       2 = 2
 
 3. Find and print the sum of the first n odd numbers.
    Function: series_sum_odd
-   Sample Input:
-    n = 5
-   Sample Output:
-    1 + 3 + 5 + 7 + 9 = 25
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 + 3 + 5 + 7 + 9 = 25
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1 + 3 + 5 = 9
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1 = 1
 
 4. Print the first n terms of an arithmetic progression for the given first term and common difference.
    Function: series_arithmetic_progression
-   Sample Input:
-    first term a = 2, common difference d = 3, n = 5
-   Sample Output:
-    2 5 8 11 14
+   Sample 1:
+     Input:
+       first term a = 2, common difference d = 3, n = 5
+     Output:
+       2 5 8 11 14
+   Sample 2:
+     Input:
+       first term a = 10, common difference d = -2, n = 6
+     Output:
+       10 8 6 4 2 0
+   Sample 3:
+     Input:
+       first term a = 1, common difference d = 1, n = 4
+     Output:
+       1 2 3 4
 
 5. Print the first n terms of a geometric progression for the given first term and common ratio.
    Function: series_geometric_progression
-   Sample Input:
-    first term a = 2, common ratio r = 3, n = 5
-   Sample Output:
-    2 6 18 54 162
+   Sample 1:
+     Input:
+       first term a = 2, common ratio r = 3, n = 5
+     Output:
+       2 6 18 54 162
+   Sample 2:
+     Input:
+       first term a = 1, common ratio r = 2, n = 6
+     Output:
+       1 2 4 8 16 32
+   Sample 3:
+     Input:
+       first term a = 5, common ratio r = 1, n = 4
+     Output:
+       5 5 5 5
 
 6. Print the Fibonacci series up to the required number of terms.
    Function: series_fibonacci
-   Sample Input:
-    terms = 10
-   Sample Output:
-    0 1 1 2 3 5 8 13 21 34
+   Sample 1:
+     Input:
+       terms = 10
+     Output:
+       0 1 1 2 3 5 8 13 21 34
+   Sample 2:
+     Input:
+       terms = 5
+     Output:
+       0 1 1 2 3
+   Sample 3:
+     Input:
+       terms = 15
+     Output:
+       0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
 
 7. Find and print the sum of the Fibonacci series up to the required number of terms.
    Function: series_sum_fibonacci
-   Sample Input:
-    terms = 10
-   Sample Output:
-    Sum = 88
+   Sample 1:
+     Input:
+       terms = 10
+     Output:
+       Sum = 88
+   Sample 2:
+     Input:
+       terms = 5
+     Output:
+       Sum = 7
+   Sample 3:
+     Input:
+       terms = 15
+     Output:
+       Sum = 986
 
 8. Calculate and print the value of the series 1^2 + 2^2 + 3^2 + ... + n^2.
    Function: series_sum_squares
-   Sample Input:
-    n = 5
-   Sample Output:
-    1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1^2 + 2^2 + 3^2 = 14
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1^2 = 1
 
 9. Calculate and print the value of the series 1^3 + 2^3 + 3^3 + ... + n^3.
    Function: series_sum_cubes
-   Sample Input:
-    n = 5
-   Sample Output:
-    1^3 + 2^3 + 3^3 + 4^3 + 5^3 = 225
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1^3 + 2^3 + 3^3 + 4^3 + 5^3 = 225
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1^3 + 2^3 + 3^3 = 36
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1^3 = 1
 
-10. Calculate and print the value of the series 1 + 1/2 + 1/3 + ... + 1/n.
+10. Calculate and print the value of the series 1 + 1/2 + 1/3 + ... + 1/n (4 decimal places).
    Function: series_harmonic
-   Sample Input:
-    n = 4
-   Sample Output:
-    1 + 1/2 + 1/3 + 1/4 = 2.0833
+   Sample 1:
+     Input:
+       n = 4
+     Output:
+       1 + 1/2 + 1/3 + 1/4 = 2.0833
+   Sample 2:
+     Input:
+       n = 2
+     Output:
+       1 + 1/2 = 1.5000
+   Sample 3:
+     Input:
+       n = 6
+     Output:
+       1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 = 2.4500
 
-11. Print the series of powers of two: 1 + 2 + 4 + 8 + ... + 2^n.
+11. Print the series of powers of two: 1 + 2 + 4 + 8 + ... + 2^n, and its sum.
    Function: series_powers_of_two
-   Sample Input:
-    n = 5
-   Sample Output:
-    1 + 2 + 4 + 8 + 16 + 32 = 63
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1 + 2 + 4 + 8 + 16 + 32 = 63
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1 + 2 + 4 + 8 = 15
+   Sample 3:
+     Input:
+       n = 0
+     Output:
+       1 = 1
 
 12. Calculate and print the value of the series 1! + 2! + 3! + ... + n!.
    Function: series_sum_factorials
-   Sample Input:
-    n = 5
-   Sample Output:
-    1! + 2! + 3! + 4! + 5! = 153
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1! + 2! + 3! + 4! + 5! = 153
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1! + 2! + 3! = 9
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       1! + 2! + 3! + 4! = 33
 
 13. Calculate and print the value of the series 1 + x + x^2 + x^3 + ... + x^n.
    Function: series_polynomial_x
-   Sample Input:
-    x = 2, n = 4
-   Sample Output:
-    1 + 2 + 4 + 8 + 16 = 31
+   Sample 1:
+     Input:
+       x = 2, n = 4
+     Output:
+       1 + 2 + 4 + 8 + 16 = 31
+   Sample 2:
+     Input:
+       x = 3, n = 3
+     Output:
+       1 + 3 + 9 + 27 = 40
+   Sample 3:
+     Input:
+       x = 5, n = 2
+     Output:
+       1 + 5 + 25 = 31
 
-14. Calculate and print the value of the series x - x^2/2! + x^3/3! - x^4/4! + ...
+14. Calculate and print the value of the series x - x^2/2! + x^3/3! - x^4/4! + ... for the given number of terms (4 decimal places).
    Function: series_alternating_taylor
-   Sample Input:
-    x = 1, terms = 5
-   Sample Output:
-    1 - 1/2! + 1/3! - 1/4! + 1/5! = 0.6333
+   Sample 1:
+     Input:
+       x = 1, terms = 5
+     Output:
+       1 - 1^2/2! + 1^3/3! - 1^4/4! + 1^5/5! = 0.6333
+   Sample 2:
+     Input:
+       x = 2, terms = 4
+     Output:
+       2 - 2^2/2! + 2^3/3! - 2^4/4! = 0.6667
+   Sample 3:
+     Input:
+       x = 3, terms = 3
+     Output:
+       3 - 3^2/2! + 3^3/3! = 3.0000
 
 15. Check whether the given number is a Strong number, where the number equals the sum of factorials of its digits.
    Function: is_strong_number
-   Sample Input:
-    n = 145
-   Sample Output:
-    145 is a Strong number  (1! + 4! + 5! = 1 + 24 + 120 = 145)
-    
-    (Another run) n = 123  ->  123 is not a Strong number
+   Sample 1:
+     Input:
+       n = 145
+     Output:
+       145 is a Strong number  (1! + 4! + 5! = 1 + 24 + 120 = 145)
+   Sample 2:
+     Input:
+       n = 123
+     Output:
+       123 is not a Strong number
+   Sample 3:
+     Input:
+       n = 40585
+     Output:
+       40585 is a Strong number  (4! + 0! + 5! + 8! + 5! = 24 + 1 + 120 + 40320 + 120 = 40585)
+
 
 ================================================================
 Phase 7: Mixed Logical Loop Problems
 ================================================================
 
-1. Print all numbers between 1 and 100 whose sum of digits is even.
+1. Print all numbers between 1 and n whose sum of digits is even.
    Function: mixed_digit_sum_even
-   Sample Input:
-    (none)
-   Sample Output:
-    2 4 6 8 11 13 15 17 19 20 22 24 26 28 31 33 35 37 39 40 42 44 46 48 51 53 55 57 59 60 62 64 66 68 71 73 75 77 79 80 82 84 86 88 91 93 95 97 99
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       2 4 6 8 11 13 15 17 19 20
+   Sample 2:
+     Input:
+       n = 50
+     Output:
+       2 4 6 8 11 13 15 17 19 20 22 24 26 28 31 33 35 37 39 40 42 44 46 48
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       2 4 6 8 11 13 15 17 19 20 22 24 26 28 31 33 35 37 39 40 42 44 46 48 51 53 55 57 59 60 62 64 66 68 71 73 75 77 79 80 82 84 86 88 91 93 95 97 99
 
-2. Count Total numbers between 1 & 500 are divisible by 7 but not divisible by 5.
+2. Count the total numbers between 1 and n that are divisible by 7 but not divisible by 5.
    Function: mixed_div_7_not_5
-   Sample Input:
-    (none)
-   Sample Output:
-    Count = 57
+   Sample 1:
+     Input:
+       n = 50
+     Output:
+       Count = 6
+   Sample 2:
+     Input:
+       n = 100
+     Output:
+       Count = 12
+   Sample 3:
+     Input:
+       n = 500
+     Output:
+       Count = 57
 
-3. Print all palindrome numbers between 1 and 500.
-   Function: mixed_palindromes_1_to_500
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 101 111 121 131 141 151 161 171 181 191 202 212 222 232 242 252 262 272 282 292 303 313 323 333 343 353 363 373 383 393 404 414 424 434 444 454 464 474 484 494
+3. Print all palindrome numbers between 1 and n.
+   Function: mixed_palindromes_1_to_n
+   Sample 1:
+     Input:
+       n = 30
+     Output:
+       1 2 3 4 5 6 7 8 9 11 22
+   Sample 2:
+     Input:
+       n = 120
+     Output:
+       1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 101 111
+   Sample 3:
+     Input:
+       n = 500
+     Output:
+       1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 101 111 121 131 141 151 161 171 181 191 202 212 222 232 242 252 262 272 282 292 303 313 323 333 343 353 363 373 383 393 404 414 424 434 444 454 464 474 484 494
 
-4. Print all numbers from 1 to 100 whose sum of digits is a multiple of 3.
+4. Print all numbers from 1 to n whose sum of digits is a multiple of 3.
    Function: mixed_digit_sum_mult_3
-   Sample Input:
-    (none)
-   Sample Output:
-    3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99
+   Sample 1:
+     Input:
+       n = 30
+     Output:
+       3 6 9 12 15 18 21 24 27 30
+   Sample 2:
+     Input:
+       n = 50
+     Output:
+       3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48
+   Sample 3:
+     Input:
+       n = 100
+     Output:
+       3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 48 51 54 57 60 63 66 69 72 75 78 81 84 87 90 93 96 99
 
 5. Print all numbers from 1 to n whose binary representation contains an even number of 1s.
    Function: mixed_even_1s_binary
-   Sample Input:
-    n = 20
-   Sample Output:
-    3 5 6 9 10 12 15 17 18 20
-    (e.g. 3 = 11 -> two 1s, 5 = 101 -> two 1s)
+   Sample 1:
+     Input:
+       n = 20
+     Output:
+       3 5 6 9 10 12 15 17 18 20
+   Sample 2:
+     Input:
+       n = 10
+     Output:
+       3 5 6 9 10
+   Sample 3:
+     Input:
+       n = 35
+     Output:
+       3 5 6 9 10 12 15 17 18 20 23 24 27 29 30 33 34
 
 6. Print a pattern where the i-th row prints the value i x i.
    Function: mixed_pattern_i_squared
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    4
-    9
-    16
-    25
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       4
+       9
+       16
+       25
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1
+       4
+       9
 
 7. Find & print the sum of odd digits & the sum of even digits of the given number.
    Function: mixed_sum_odd_even_digits
-   Sample Input:
-    n = 123456
-   Sample Output:
-    Sum of odd digits = 9
-    Sum of even digits = 12
+   Sample 1:
+     Input:
+       n = 123456
+     Output:
+       Sum of odd digits = 9
+       Sum of even digits = 12
+   Sample 2:
+     Input:
+       n = 9075
+     Output:
+       Sum of odd digits = 21
+       Sum of even digits = 0
+   Sample 3:
+     Input:
+       n = 2468
+     Output:
+       Sum of odd digits = 0
+       Sum of even digits = 20
 
-8. Print all Armstrong numbers between 1 and 1000.
-   Function: mixed_armstrong_1_to_1000
-   Sample Input:
-    (none)
-   Sample Output:
-    1 2 3 4 5 6 7 8 9 153 370 371 407
+8. Print all Armstrong numbers between 1 and n.
+   Function: mixed_armstrong_1_to_n
+   Sample 1:
+     Input:
+       n = 200
+     Output:
+       1 2 3 4 5 6 7 8 9 153
+   Sample 2:
+     Input:
+       n = 1000
+     Output:
+       1 2 3 4 5 6 7 8 9 153 370 371 407
+   Sample 3:
+     Input:
+       n = 9
+     Output:
+       1 2 3 4 5 6 7 8 9
 
-9. Print all Perfect numbers between 1 and 1000.
-   Function: mixed_perfect_1_to_1000
-   Sample Input:
-    (none)
-   Sample Output:
-    6 28 496
+9. Print all Perfect numbers between 1 and n (print "No perfect numbers found" if there are none).
+   Function: mixed_perfect_1_to_n
+   Sample 1:
+     Input:
+       n = 1000
+     Output:
+       6 28 496
+   Sample 2:
+     Input:
+       n = 30
+     Output:
+       6 28
+   Sample 3:
+     Input:
+       n = 5
+     Output:
+       No perfect numbers found
 
-10. Find the number between 1 and n that has the maximum digit sum, and print that number along with its digit sum.
+10. Find the number between 1 and n that has the maximum digit sum, and print that number along with its digit sum (if there is a tie, print the smaller number).
    Function: mixed_max_digit_sum
-   Sample Input:
-    n = 100
-   Sample Output:
-    Number = 99, Digit sum = 18
+   Sample 1:
+     Input:
+       n = 100
+     Output:
+       Number = 99, Digit sum = 18
+   Sample 2:
+     Input:
+       n = 50
+     Output:
+       Number = 49, Digit sum = 13
+   Sample 3:
+     Input:
+       n = 1000
+     Output:
+       Number = 999, Digit sum = 27
+
 
 ================================================================
 Phase 8 : Star Pattern Printing
 ================================================================
 
-1. Print a Single Star (*)
+1. Print a column of n stars (one star per line). With n = 1 this prints a Single Star (*).
    Function: pattern_single_star
-   Sample Input:
-    (none)
-   Sample Output:
-    *
+   Sample 1:
+     Input:
+       n = 1
+     Output:
+       *
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       *
+       *
+       *
+   Sample 3:
+     Input:
+       n = 5
+     Output:
+       *
+       *
+       *
+       *
+       *
 
-2. Print Four Stars (****)
-   Function: pattern_four_stars
-   Sample Input:
-    (none)
-   Sample Output:
-    ****
+2. Print n stars on one line separated by spaces (n = 4 gives the Four Stars pattern).
+   Function: pattern_n_stars_spaced
+   Sample 1:
+     Input:
+       n = 4
+     Output:
+       * * * *
+   Sample 2:
+     Input:
+       n = 1
+     Output:
+       *
+   Sample 3:
+     Input:
+       n = 6
+     Output:
+       * * * * * *
 
 3. Print n Stars on Same Line
    Function: pattern_n_stars_line
-   Sample Input:
-    n = 6
-   Sample Output:
-    ******
+   Sample 1:
+     Input:
+       n = 6
+     Output:
+       ******
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       ***
+   Sample 3:
+     Input:
+       n = 10
+     Output:
+       **********
 
 4. Print Square of Stars (n x n Stars)
    Function: pattern_square_stars
-   Sample Input:
-    n = 5
-   Sample Output:
-    *****
-    *****
-    *****
-    *****
-    *****
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       *****
+       *****
+       *****
+       *****
+       *****
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       ***
+       ***
+       ***
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       **
+       **
 
 5. Print an Increasing Triangle of Stars
    Function: pattern_increasing_triangle
-   Sample Input:
-    n = 5
-   Sample Output:
-    *
-    **
-    ***
-    ****
-    *****
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       *
+       **
+       ***
+       ****
+       *****
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       *
+       **
+       ***
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       *
 
 6. Print a Right-Aligned Triangle of Stars
    Function: pattern_right_aligned_triangle
-   Sample Input:
-    n = 5
-   Sample Output:
-        *
-       **
-      ***
-     ****
-    *****
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+           *
+          **
+         ***
+        ****
+       *****
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+         *
+        **
+       ***
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       *
 
-7. Print Stars in Even Numbers (2, 4, 6, 8, 10)
+7. Print Stars in Even Numbers (2, 4, 6, ... , 2n)
    Function: pattern_even_stars
-   Sample Input:
-    n = 5 (rows)
-   Sample Output:
-    **
-    ****
-    ******
-    ********
-    **********
+   Sample 1:
+     Input:
+       n = 5 (rows)
+     Output:
+       **
+       ****
+       ******
+       ********
+       **********
+   Sample 2:
+     Input:
+       n = 3 (rows)
+     Output:
+       **
+       ****
+       ******
+   Sample 3:
+     Input:
+       n = 1 (rows)
+     Output:
+       **
 
-8. Print Stars in Odd Numbers (1, 3, 5, 7, 9)
+8. Print Stars in Odd Numbers (1, 3, 5, ... , 2n-1)
    Function: pattern_odd_stars
-   Sample Input:
-    n = 5 (rows)
-   Sample Output:
-    *
-    ***
-    *****
-    *******
-    *********
+   Sample 1:
+     Input:
+       n = 5 (rows)
+     Output:
+       *
+       ***
+       *****
+       *******
+       *********
+   Sample 2:
+     Input:
+       n = 3 (rows)
+     Output:
+       *
+       ***
+       *****
+   Sample 3:
+     Input:
+       n = 1 (rows)
+     Output:
+       *
 
 9. Print a Centered Pyramid of Stars
    Function: pattern_centered_pyramid
-   Sample Input:
-    n = 5
-   Sample Output:
-        *
-       ***
-      *****
-     *******
-    *********
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+           *
+          ***
+         *****
+        *******
+       *********
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+         *
+        ***
+       *****
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       *
 
 10. Print Stars and Spaces Alternating (Stars and Blank Spaces)
    Function: pattern_alternating_stars_spaces
-   Sample Input:
-    n = 5   (spaces shown as blanks)
-   Sample Output:
-        *
-       * *
-      * * *
-     * * * *
-    * * * * *
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+           *
+          * *
+         * * *
+        * * * *
+       * * * * *
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+         *
+        * *
+       * * *
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       *
 
-11. Print Numbers in an Increasing Sequence (1, 12, 123, 1234, 12345)
+11. Print Numbers in an Increasing Sequence (1, 12, 123, 1234, ...)
    Function: pattern_increasing_numbers
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    12
-    123
-    1234
-    12345
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       12
+       123
+       1234
+       12345
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       1
+       12
+       123
+   Sample 3:
+     Input:
+       n = 1
+     Output:
+       1
 
 12. Print Repeated Numbers per Row (Same Number Repeated)
    Function: pattern_repeated_numbers
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    22
-    333
-    4444
-    55555
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       22
+       333
+       4444
+       55555
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1
+       22
+       333
+       4444
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       1
+       22
 
 13. Continuous number triangle
    Function: pattern_continuous_numbers
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    2 3
-    4 5 6
-    7 8 9 10
-    11 12 13 14 15
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       2 3
+       4 5 6
+       7 8 9 10
+       11 12 13 14 15
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1
+       2 3
+       4 5 6
+       7 8 9 10
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       1
+       2 3
 
-14. Mirrored continuous number triangle
+14. Mirrored continuous number triangle (digits wrap around after 9 -> 0)
    Function: pattern_mirrored_numbers
-   Sample Input:
-    n = 7   (digits wrap around after 9 -> 0)
-   Sample Output:
-    1
-    2 3
-    4 5 6
-    7 8 9 0
-    1 2 3 4 5
-    6 7 8 9 0 1
-    2 3 4 5 6 7 8
+   Sample 1:
+     Input:
+       n = 7
+     Output:
+       1
+       2 3
+       4 5 6
+       7 8 9 0
+       1 2 3 4 5
+       6 7 8 9 0 1
+       2 3 4 5 6 7 8
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1
+       2 3
+       4 5 6
+       7 8 9 0
+   Sample 3:
+     Input:
+       n = 5
+     Output:
+       1
+       2 3
+       4 5 6
+       7 8 9 0
+       1 2 3 4 5
 
-15. Alternating 1 and 0 triangle
+15. Alternating 1 and 0 triangle (continuous 1 0 1 0 ... sequence)
    Function: pattern_alternating_1_0
-   Sample Input:
-    n = 5   (continuous 1 0 1 0 ... sequence)
-   Sample Output:
-    1
-    0 1
-    0 1 0
-    1 0 1 0
-    1 0 1 0 1
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       0 1
+       0 1 0
+       1 0 1 0
+       1 0 1 0 1
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1
+       0 1
+       0 1 0
+       1 0 1 0
+   Sample 3:
+     Input:
+       n = 3
+     Output:
+       1
+       0 1
+       0 1 0
 
-16. Continuous alphabet triangle
+16. Continuous alphabet triangle (n up to 6)
    Function: pattern_continuous_alphabet
-   Sample Input:
-    n = 5
-   Sample Output:
-    A
-    B C
-    D E F
-    G H I J
-    K L M N O
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       A
+       B C
+       D E F
+       G H I J
+       K L M N O
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       A
+       B C
+       D E F
+   Sample 3:
+     Input:
+       n = 6
+     Output:
+       A
+       B C
+       D E F
+       G H I J
+       K L M N O
+       P Q R S T U
 
 17. Repeated alphabet triangle
    Function: pattern_repeated_alphabet
-   Sample Input:
-    n = 5
-   Sample Output:
-    A
-    B B
-    C C C
-    D D D D
-    E E E E E
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       A
+       B B
+       C C C
+       D D D D
+       E E E E E
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       A
+       B B
+       C C C
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       A
+       B B
 
 18. Increasing alphabet sequence
    Function: pattern_increasing_alphabet
-   Sample Input:
-    n = 5
-   Sample Output:
-    A
-    A B
-    A B C
-    A B C D
-    A B C D E
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       A
+       A B
+       A B C
+       A B C D
+       A B C D E
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       A
+       A B
+       A B C
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       A
+       A B
 
-19. Continuous alphabet centered pyramid
+19. Continuous alphabet centered pyramid (n up to 5)
    Function: pattern_alphabet_pyramid
-   Sample Input:
-    n = 5
-   Sample Output:
-        A
-       BCD
-      EFGHI
-     JKLMNOP
-    QRSTUVWXY
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+           A
+          BCD
+         EFGHI
+        JKLMNOP
+       QRSTUVWXY
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+         A
+        BCD
+       EFGHI
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+          A
+         BCD
+        EFGHI
+       JKLMNOP
 
 20. Repeated increasing number sequence
    Function: pattern_number_sequence
-   Sample Input:
-    n = 5
-   Sample Output:
-    1
-    12
-    123
-    1234
-    12345
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       1
+       12
+       123
+       1234
+       12345
+   Sample 2:
+     Input:
+       n = 4
+     Output:
+       1
+       12
+       123
+       1234
+   Sample 3:
+     Input:
+       n = 2
+     Output:
+       1
+       12
 
-21. Palindromic number triangle
+21. Palindromic number triangle (n up to 9)
    Function: pattern_palindromic_numbers
-   Sample Input:
-    n = 5
-   Sample Output:
-        1
-       121
-      12321
-     1234321
-    123454321
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+           1
+          121
+         12321
+        1234321
+       123454321
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+         1
+        121
+       12321
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+          1
+         121
+        12321
+       1234321
 
-22. Decreasing star triangle
+22. Print a star pattern that increases from 1 star up to n stars and then decreases back to 1 star
    Function: pattern_decreasing_stars
-   Sample Input:
-    (as given in the PDF image: 1,2,4,5,4,3,2,1 stars)
-   Sample Output:
-    *
-    **
-    ****
-    *****
-    ****
-    ***
-    **
-    *
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       *
+       **
+       ***
+       ****
+       *****
+       ****
+       ***
+       **
+       *
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       *
+       **
+       ***
+       **
+       *
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       *
+       **
+       ***
+       ****
+       ***
+       **
+       *
 
-23. Final pattern (Unspecified visual structure)
+23. Print stars increasing from 1 to n and then decreasing from n back to 1 (the longest row appears twice)
    Function: pattern_23_custom
-   Sample Input:
-    (none)  [PDF shows 1,2,3,4,5,5,4,3,2,1 stars]
-   Sample Output:
-    *
-    **
-    ***
-    ****
-    *****
-    *****
-    ****
-    ***
-    **
-    *
+   Sample 1:
+     Input:
+       n = 5
+     Output:
+       *
+       **
+       ***
+       ****
+       *****
+       *****
+       ****
+       ***
+       **
+       *
+   Sample 2:
+     Input:
+       n = 3
+     Output:
+       *
+       **
+       ***
+       ***
+       **
+       *
+   Sample 3:
+     Input:
+       n = 4
+     Output:
+       *
+       **
+       ***
+       ****
+       ****
+       ***
+       **
+       *
+
